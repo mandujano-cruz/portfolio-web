@@ -1,0 +1,74 @@
+.contact {
+  padding: 80px 0;
+  /* padding-top: 80px; */
+  background-color: white;
+}
+
+.contact__title {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.contact__container {
+  margin: 25px auto 0;
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  grid-template-areas:
+  'github github github satelite status'
+  'whatsapp linkedin linkedin linkedin cv'
+  'location terminal email email email';
+}
+
+.contact__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  padding: 0 20px;
+  font-size: 32px;
+  font-weight: lighter;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+}
+
+.contact__item_static {
+  cursor: default;
+  pointer-events: none;
+}
+
+.contact__item:hover {
+  box-shadow: 10px 10px 15px #000000CC;
+  font-weight: bold;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.contact__item_github { grid-area: github; background-color: #0A192F;}
+.contact__item_satelite { grid-area: satelite; background-color: #112240;}
+.contact__item_status { grid-area: status; background-color: #1B3A5B;}
+.contact__item_whatsapp { grid-area: whatsapp; background-color: #234E70;}
+.contact__item_linkedin { grid-area: linkedin; background-color: #0077B5;}
+.contact__item_cv { grid-area: cv; background-color: #0080FF; display: flex; flex-direction: column;}
+.contact__item_location { grid-area: location; background-color: #3399FF;}
+.contact__item_terminal { grid-area: terminal; background-color: #7FBCFF;}
+.contact__item_email { grid-area: email; background-color: #B3D9FF;}
+
+.contact__icon {
+  margin: 0 30px;
+  width: 75px;
+}
+
+.contact__icon_static {
+  opacity: 0.3;
+}
+
+.contact__text {
+  text-decoration: none;
+}
