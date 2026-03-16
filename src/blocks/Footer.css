@@ -12,6 +12,7 @@
   grid-template-columns: 1fr 2fr 1fr;
   margin: 0 auto;
   width: 75%;
+  max-width: 1920px;
 }
 
 .footer__logo {
@@ -19,7 +20,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: bold;
 }
 
@@ -31,6 +32,7 @@
 .footer__nav-item {
   text-decoration: none;
   color: white;
+  font-size: 1.5rem;
 }
 
 .footer__nav-item:hover {

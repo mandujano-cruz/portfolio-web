@@ -1,4 +1,3 @@
-import './Hero.css';
 import me from '../../images/me.jpg';
 
 export default function Hero () {

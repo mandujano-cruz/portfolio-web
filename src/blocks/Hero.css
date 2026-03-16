@@ -1,11 +1,8 @@
 .hero {
   display: flex;
   margin: 0 auto;
-  background-image: url("../../images/background_cover.png");
-  background-size: cover;
-  /* background-position: initial; */
-  background-repeat: no-repeat;
   width: 75%;
+  max-width: 1920px;
   flex-wrap: wrap;
 }
 
@@ -24,14 +21,14 @@
 
 .hero__title_text {
   margin: 0;
-  font-size: 96px;
+  font-size: 9.6rem;
   color: #494949;
 }
 
 .hero__title_name {
   margin: 0;
   white-space: pre-wrap;
-  font-size: 150px;
+  font-size: 13rem;
   font-weight: bold;
   -webkit-text-stroke: 6px #007BFF;
   paint-order: stroke fill;
@@ -42,7 +39,7 @@
   margin: 50px auto;
   width: 100%;
   text-align: end;
-  font-size: 48px;
+  font-size: 4.8rem;
   font-family: 'Inter', sans-serif;
   font-weight: light;
   color: #007BFF;
@@ -55,5 +52,5 @@
 .hero__description {
   width: 100%;
   text-align: center;
-  font-size: 32px;
+  font-size: 3.2rem;
 }

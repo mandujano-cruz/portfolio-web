@@ -1,4 +1,3 @@
-import './Contact.css';
 import github from '../../images/github.png'
 import satelite from '../../images/satelite.png'
 import status from '../../images/play.png'

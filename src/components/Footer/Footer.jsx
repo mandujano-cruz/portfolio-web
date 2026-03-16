@@ -1,5 +1,3 @@
-import './Footer.css';
-import '../Header/Navbar/Navbar.css'
 import { useState } from 'react';
 import whatsapp from '../../images/whatsapp.png'
 import linkedin from '../../images/linkedin.png'

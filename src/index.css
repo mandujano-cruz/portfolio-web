@@ -1,28 +1,13 @@
 @import url("./vendor/normalize.css");
 @import url("./vendor/fonts.css");
-/* @import url("./page.css"); */
-.page {
-  margin: auto;
-  min-width: 320px;
-  /* max-width: 1920px; */
-  font-family: "Jetbrains Mono", serif;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  background-color: #E4E4E4;
-  scroll-behavior: smooth;
-}
-
-section[id] {
-  scroll-margin-top: 180px;
-}
-/* @import url("./components/Header/Header.css"); */
-/* @import url("./components/Header/Navbar/Navbar.css"); */
-/* @import url("./components/Hero/Hero.css"); */
-/* @import url("./components/About/About.css"); */
-/* @import url("./components/Portfolio/Portfolio.css"); */
-/* @import url("./components/Skills/Skills.css"); */
-/* @import url("./components/Contact/Contact.css"); */
-/* @import url("./components/Footer/Footer.css"); */
+@import url("./blocks/page.css");
+@import url("./blocks/Header.css");
+@import url("./blocks/Navbar.css");
+@import url("./blocks/Hero.css");
+@import url("./blocks/About.css");
+@import url("./blocks/Portfolio.css");
+@import url("./blocks/Card.css");
+@import url("./blocks/Skills.css");
+@import url("./blocks/Contact.css");
+@import url("./blocks/Footer.css");
+@import url("./blocks/media.css");
